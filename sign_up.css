@@ -1,0 +1,308 @@
+body{
+    padding:0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color:lavender
+}
+
+
+body.premium
+{
+    background-color: grey;
+}
+
+.container
+{
+    border-radius: 5px;
+    left: 600px;
+    right: 200px;
+    top:100px;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+.login-container
+{
+    border-radius: 5px;
+    left: 600px;
+    right: 200px;
+    top:100px;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.expense-container
+{
+    border-radius: 5px;
+    left: 600px;
+    right: 200px;
+    top:100px;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+.forgot-password-container
+{
+    border-radius: 5px;
+    left: 600px;
+    right: 200px;
+    top:100px;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+#signup-form
+{
+    margin-top: 20px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    padding-bottom: 20px;
+    align-content: center;
+    
+}
+
+#login-form
+{
+    margin-top: 20px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+#my-form
+{
+    margin-top: 20px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    width: 400px;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+#forgot-form
+{
+    margin-top: 20px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+#signup-form input
+{
+    border-radius: 3px;
+    border-color: black;
+    height: 20px;
+}
+
+#login-form input
+{
+   border-radius: 3px;
+   border-color: black;
+   height: 20px;
+}
+#my-form input
+{
+   border-radius: 3px;
+   border-color: black;
+   height: 20px;
+   margin-bottom: 10px;
+}
+
+#forgot-form input
+{
+   border-radius: 3px;
+   border-color: black;
+   height: 20px;
+   margin-bottom: 10px;
+}
+
+#my-form select
+{
+   border-radius: 3px;
+   border-color: black;
+   height: 27px;
+   width:170px ;
+   border-width: 2px;
+}
+#signup-form label{
+    font-size:medium;
+   font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+#login-form label{
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#my-form label{
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+
+#forgot-form label{
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+
+#signup-form button
+{
+    background-color:salmon;
+    height: 30px;
+    width: 80px;
+    color:black;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+}
+#signup-form button:hover
+{
+    background-color:rgb(28, 181, 120);
+    color:black;
+}
+
+#forgot-form button
+{
+    background-color:salmon;
+    height: 30px;
+    width: 80px;
+    color:black;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+}
+#forgot-form button:hover
+{
+    background-color:rgb(28, 181, 120);
+    color:black;
+}
+
+#add-expense
+{
+    background-color:salmon;
+    height: 50px;
+    width: 120px;
+    color:black;
+    border-radius: 9px;
+    font-size: medium;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#add-expense:hover
+{
+    background-color:rgb(28, 181, 120);
+    color:black;
+}
+
+#signup-form a{
+    color: black;
+}
+
+#login-form button
+{
+    background-color:salmon;
+    height: 30px;
+    width: 70px;
+    color:black;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+}
+#login-form button:hover
+{
+    background-color:rgb(28, 181, 120);
+    color:black;
+}
+
+
+#login-form a{
+    color: black;
+}
+
+#users button
+{
+    background-color: rgb(249, 43, 43);
+    width: 60px;
+    height: 30px;
+    font-weight:700;
+    color:black;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+#users button:hover{
+    background-color:rgb(50, 164, 119);
+}
+
+.expense-container ul{
+    list-style: none;
+}
+.item{
+  margin-right: 10px;
+}
+
+
+body ul{
+    list-style: none;
+}
+
+.leaderboard
+{
+    font-size: large;
+    color: white;
+}
+
+.leaderboard-user
+{
+    
+    color:lavender;
+    padding-top: 10px;
+}
+
+.leaderboard-expense
+{
+    font-size:medium;
+    color:lime;
+    padding-top: 3px;
+}
+
+.active{
+    background-color:rgb(79, 201, 122);
+    font-size: medium;
+}
+
+#rzp-button1{
+    height: 25px;
+    border-radius: 3px;
+}
+
+#downloadexpense{
+    height: 25px;
+    border-radius: 3px;
+}
